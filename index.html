@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link href="/style.css" rel="stylesheet" />
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="accordion">
+        <div class="accordion-panel">
+          <h2 id="panel1-heading">
+            <button
+              class="accordion-trigger"
+              aria-controls="panel1-content"
+              aria-expanded="true"
+            >
+              <span class="accordion-title" id="panel1-title">Explore</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            class="accordion-content"
+            id="panel1-content"
+            aria-labelledby="panel1-heading"
+            aria-hidden="false"
+            role="region"
+          >
+            <p>
+              Explore is a program focused on the software development side of technology. From web development to machine learning to simple scripts, this program aims to expose members to all sorts of different programming languages and frameworks commonly used in the industry."
+            </p>
+            <img
+              class="accordion-image"
+              src="/assets/images/explore.jpg"
+              alt="A sailboat at sea during sunset"
+            />
+          </div>
+        </div>
+
+        <div class="accordion-panel">
+          <h2 id="panel2-title">
+            <button
+              class="accordion-trigger"
+              aria-expanded="false"
+              aria-controls="panel2-content"
+            >
+              <span class="accordion-title"> Reach </span>
+
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            role="region"
+            aria-labelledby="panel2-title"
+            aria-hidden="true"
+            class="accordion-content"
+            id="panel2-content"
+          >
+            <p>
+              Reach is a program focused on the hardware development side of technology. Using all sorts of machinery, large or small, this program aims inspire members to create their own devices with the technology available today.
+            </p>
+            <img
+              class="accordion-image"
+              src="assets/images/reach.jpg"
+              alt="closeup of a metal chain connected to a metal ring in the ground"
+            />
+          </div>
+        </div>
+
+        <div class="accordion-panel">
+          <h2 id="panel3-title">
+            <button
+              class="accordion-trigger"
+              aria-expanded="false"
+              aria-controls="panel3-content"
+            >
+              <span class="accordion-title"> Build </span>
+
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            role="region"
+            aria-labelledby="panel3-title"
+            aria-hidden="true"
+            class="accordion-content"
+            id="panel3-content"
+          >
+            <p>
+              Build is a program focused on project development. Teams have nine weeks to complete a project corresponding to a topic in technology that they may be interested in. From mobile applications to games to even robots.
+            </p>
+            <img
+              class="accordion-image"
+              src="assets/images/build.jpg"
+              alt="A person fishing in the ocean"
+            />
+          </div>
+        </div>
+
+        <div class="accordion-panel">
+          <h2 id="panel4-title">
+            <button
+              class="accordion-trigger"
+              aria-expanded="false"
+              aria-controls="panel4-content"
+            >
+              <span class="accordion-title"> Ignite </span>
+
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            role="region"
+            aria-labelledby="panel4-title"
+            aria-hidden="true"
+            class="accordion-content"
+            id="panel4-content"
+          >
+            <p>
+              Ignite is a program focused on information technology, a field in technology. Commonly overlooked, information technology ensures that the systems running the software are secured and works.
+            </p>
+            <img
+              class="accordion-image"
+              src="assets/images/ignite.jpg"
+              alt="A white lighthouse with red top"
+            />
+          </div>
+        </div>
+        <div class="accordion-panel">
+          <h2 id="panel5-title">
+            <button
+              class="accordion-trigger"
+              aria-expanded="false"
+              aria-controls="panel5-content"
+            >
+              <span class="accordion-title"> Hack </span>
+
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            role="region"
+            aria-labelledby="panel5-title"
+            aria-hidden="true"
+            class="accordion-content"
+            id="panel5-content"
+          >
+            <p>
+              Hack is a program focused on the community in Computer Science. Across the country, there are various coding competitions, Hackathons, where students must create a solution by the end of a given time frame. Most students work as teams, with the members being fellow students in the same school.
+            </p>
+            <img
+              class="accordion-image"
+              src="assets/images/hack.jpg"
+              alt="reef outcropping with a lot of orange fish swimming around it"
+            />
+          </div>
+        </div>
+        
+        <div class="accordion-panel">
+          <h2 id="panel6-title">
+            <button
+              class="accordion-trigger"
+              aria-expanded="false"
+              aria-controls="panel6-content"
+            >
+              <span class="accordion-title"> Uplift </span>
+
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#initLogo"></use>
+              </svg>
+            </button>
+          </h2>
+
+          <div
+            role="region"
+            aria-labelledby="panel6-title"
+            aria-hidden="true"
+            class="accordion-content"
+            id="panel6-content"
+          >
+            <p>
+              Uplift is a program focused on mentorship. Many incoming freshmen are overwhelmed by the amount of information available to them from the start. Our program aims to guide these new students and help them kickstart their tech careers. Those with experience in the field or program help to navigate freshmen during these rough times and allow them to establish a network or two. Mentor with us or get a mentor today
+            </p>
+            <img
+              class="accordion-image"
+              src="assets/images/uplift.jpg"
+              alt="reef outcropping with a lot of orange fish swimming around it"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+		<svg width="0" height="0" class="hidden">
+			<symbol
+				id="initLogo"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 1200 480.12"
+			>
+				<path
+					d="m499.17,75.78c-79.68,0-131.34,62.17-153.23,108.58-3.5,7.01-7.88,17.51-18.39,13.13-11.38-4.38-2.63-21.89,4.38-35.9,7-14.01,11.38-28.9,11.38-49.91v-21.89h0c-77.37,0-140.1,62.73-140.1,140.1v250.23h140.1l1.02-163.32c0-87.13,37.48-123.43,94.39-123.43,49.91,0,86.72,30.4,86.72,134.6v152.16h140.1v-208.2c0-131.34-66.55-196.14-166.37-196.14Z"
+				/>
+				<path
+					d="m1140.2,201.87c33.02,0,59.8-26.77,59.8-59.8v-52.28h-126.09V0h-140.1v338.26c0,111.2,43.78,141.85,136.6,141.85h129.59v-112.08h-84.06c-40.28,0-42.03-1.75-42.03-45.53v-120.64h66.29Z"
+				/>
+				<path
+					d="m800.09,142.42c-27,0-51.55-12.01-69.82-31.6v369.3h138.95V111.55c-18.19,19.17-42.47,30.87-69.13,30.87Z"
+				/>
+				<path
+					d="m799.86,116.1c31.38,0,56.82-25.49,56.82-56.93s-25.44-56.93-56.82-56.93-56.82,25.49-56.82,56.93,25.44,56.93,56.82,56.93Z"
+				/>
+				<path
+					d="m69.82,142.42c-27,0-51.55-12.01-69.82-31.6v369.3h138.95V111.55c-18.19,19.17-42.47,30.87-69.13,30.87Z"
+				/>
+				<ellipse cx="69.59" cy="59.18" rx="56.82" ry="56.93" />
+			</symbol>
+
+			<symbol id="" xmlns="" viewBox=""></symbol>
+		</svg>
+	</body>
+</html>
